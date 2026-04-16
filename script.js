@@ -20,3 +20,8 @@ async function loadAnime(query = "naruto") {
     });
 }
 
+searchInput.addEventListener("input", (e) => {
+  loadAnime(e.target.value);
+});
+
+loadAnime();
