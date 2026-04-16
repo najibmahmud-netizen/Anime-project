@@ -6,3 +6,10 @@
   --secondary: #f59e0b;
   --accent: #f3f4f6;
 }
+
+/* Basic Reset */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--accent);
+}
