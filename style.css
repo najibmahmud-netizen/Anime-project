@@ -46,3 +46,8 @@ anime-container {
 .card img {
   width: 100%;
 }
+
+footer {
+  text-align: center;
+  padding: 1rem;
+}
