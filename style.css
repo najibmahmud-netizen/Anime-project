@@ -21,3 +21,10 @@ header {
   text-align: center;
   font-family: 'Playfair Display', serif;
 }
+
+input {
+  padding: 0.5rem;
+  margin-top: 10px;
+  width: 80%;
+  max-width: 400px;
+}
