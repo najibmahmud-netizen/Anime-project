@@ -42,3 +42,7 @@ anime-container {
   padding: 10px;
   font-family: 'Roboto', sans-serif;
 }
+
+.card img {
+  width: 100%;
+}
