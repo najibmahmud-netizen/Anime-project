@@ -28,3 +28,10 @@ input {
   width: 80%;
   max-width: 400px;
 }
+
+anime-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 1rem;
+  gap: 1rem;
+}
