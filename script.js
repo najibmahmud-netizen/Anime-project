@@ -5,4 +5,14 @@ async function loadAnime(query = "naruto") {
   container.innerHTML = "Loading...";
   const res = await fetch(`https://api.jikan.moe/v4/anime?q=${query}`);
   const data = await res.json();
-}
+
+  container.innerHTML = "";
+
+    data.data.forEach(anime => {
+      const card = document.createElement("div");
+      card.classList.add("card");
+      container.appendChild(card);
+    });
+  }
+
+  
