@@ -13,3 +13,11 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--accent);
 }
+
+header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
