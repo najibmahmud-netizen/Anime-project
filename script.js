@@ -11,8 +11,12 @@ async function loadAnime(query = "naruto") {
     data.data.forEach(anime => {
       const card = document.createElement("div");
       card.classList.add("card");
+      card.innerHTML = `
+        <img src="${anime.images.jpg.image_url}" />
+        <h3>${anime.title}</h3>
+        <p>Score: ${anime.score}</p>
+      `;
       container.appendChild(card);
     });
-  }
+}
 
-  
